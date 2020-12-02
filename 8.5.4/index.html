@@ -1,7 +1,1368 @@
-<html>
-This is the home of javadoc for the Rocket API product.
+
+<!-- saved from url=(0052)https://rocketsoftware.github.io/rocket-api-javadoc/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="all" href="./rocket-api-javadoc__files/css">
+<style>
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal;
+}
+
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-md .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.secondary-menu {
+    margin-right: -15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+}
+
+.main-navbar-wrapper {
+    display: flex;
+    flex: 1;
+    align-self: stretch;
+    align-items: flex-end;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	.main-menu--item-is-top {
+		padding-left: 20px;
+	}
+}
+
+.main-menu--nav-link {
+    color: #333;
+    display: block;
+    padding-right: 16px;
+	text-decoration: none;
+}
+.main-menu--nav-link:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+header,
+footer,
+.official {
+    font-family: Arial,sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+@media (min-width: 768px) {
+	.secondary-main-menu--link {
+		text-transform: uppercase;
+		font-size: 0.875em;
+		color: #254547;
+		padding: 5px 10px;
+	}
+	
+	.secondary-main-menu--link:hover {
+		background: #eaeaea;
+		text-decoration: none;
+	}
+}
+
+.block-system-branding-block {
+    display: flex;
+    align-items: flex-end;
+    align-self: stretch;
+    min-height: 75px;
+}
+
+.secondary-main-menu--item  a {
+	text-decoration: none;
+    background-color: transparent;
+}
+header a:hover {
+    text-decoration: none;
+}
+header a:active, a:hover {
+    outline-width: 0;
+    color: #254547;
+}
+
+header dl, ol, ul {
+    margin-top: 0;
+	line-height: 24px;
+}
+
+
+@media (max-width: 991.98px) and (min-width: 768px) {
+	.main-menu--item-is-top {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.menu--main {
+		display: none;
+	}
+	.secondary-menu {
+		display: none;
+	}
+	.navbar-brand {
+		padding: 0;
+	}
+	
+	.block-system-branding-block {
+		min-height: 40px;
+	}
+	
+	.main-navbar-wrapper {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.main-nav-brand-image {
+		height: 40px;
+	}
+}
+
+.navbar-brand {
+	display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+}
+
+.main-nav-brand-image {
+	margin-right: 16px;
+	display: block;
+	height: 40px;
+	width: 148px;
+	object-fit: contain;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 599.85 161.743'%3E%3Cpath d='M151.397 47.31l-9.254-1.346V40.58h42.906c22.21 0 46.943 4.543 46.943 31.297 0 14.638-13.63 24.902-26.753 27.09l27.763 52.664 9.254 1.347v5.385h-28.604l-30.118-58.217h-11.61v51.486l9.254 1.347v5.385h-39.037v-5.385l9.254-1.346V47.31zm20.528 47.45h7.57c22.043 0 30.288-8.414 30.288-24.567 0-17.835-12.62-24.23-26.753-24.23-3.197 0-7.235.506-11.105.842V94.76z'/%3E%3Cpath d='M239.227 118.147c0-22.715 14.47-42.737 36.175-42.737 21.706 0 36.176 20.022 36.176 42.737 0 19.35-13.965 42.57-36.176 42.57-22.21 0-36.175-18.173-36.175-42.57zm53.17 0c0-24.062-4.712-36.85-16.995-36.85-12.283 0-16.994 12.452-16.994 36.85 0 22.715 3.534 36.68 16.994 36.68s16.994-22.04 16.994-36.68zM381.74 145.237c-9.087 10.432-18.173 15.48-27.427 15.48-21.873 0-35.503-16.49-35.503-38.868 0-26.587 15.985-46.44 39.373-46.44 7.57 0 19.013 3.028 19.013 13.797 0 4.88-4.543 8.244-9.254 8.244-12.45 0-8.918-16.15-14.134-16.15-9.254 0-18.172 9.758-18.172 31.968 0 15.144 9.086 34.83 26.248 34.83 6.226 0 10.6-2.355 15.144-6.562l4.71 3.7zM429.858 158.36v-4.542l9.254-1.683-20.19-35.503-7.74 12.45v23.053l8.076 1.683v4.543h-34.156v-4.542l9.254-1.683V51.685c0-5.553-3.197-7.235-9.254-7.235v-4.543l26.08-10.096v86.99h.336l9.255-14.638c8.244-13.124 19.854-26.753 28.604-26.753 4.71 0 9.59 3.868 9.59 9.253 0 7.74-6.225 10.6-10.263 10.6s-7.235-3.7-10.096-3.7c-3.197 0-8.244 7.74-9.59 10.263l28.603 50.31 8.077 1.683v4.542h-35.84zM481.68 119.83c.504 13.46 7.907 28.268 23.387 28.268 10.264 0 13.124-5.048 18.51-11.105l4.542 3.533c-8.246 11.947-16.827 20.19-32.307 20.19-19.687 0-30.96-19.18-30.96-39.034 0-21.033 10.77-46.27 33.82-46.27 17.835 0 29.108 15.815 29.276 31.968l-46.27 12.45zm17.834-12.116c6.73-1.682 9.255-5.384 9.255-13.46 0-8.413-5.05-12.956-12.62-12.956-11.61 0-16.153 14.64-16.153 31.465l19.517-5.05zM532.826 85.336v-7.57h9.255v-23.22l16.826-9.592v32.81h19.014v7.572h-19.014v56.535c0 5.385 4.207 7.91 8.918 7.91 4.375 0 8.076-2.525 11.946-5.554l2.524 4.543c-5.048 5.888-13.798 11.945-21.874 11.945-14.807 0-18.34-11.273-18.34-19.014V85.337h-9.254z'/%3E%3Cg%3E%3Cpath d='M599.85 155.096c0 3.724-2.923 6.646-6.727 6.646-3.764 0-6.767-2.923-6.767-6.646 0-3.644 3.003-6.566 6.767-6.566 3.804 0 6.727 2.923 6.727 6.566zm-11.81 0c0 2.923 2.16 5.245 5.124 5.245 2.883 0 5.005-2.32 5.005-5.204 0-2.923-2.123-5.285-5.046-5.285s-5.085 2.363-5.085 5.246zm4.043 3.444h-1.52v-6.566c.6-.12 1.44-.2 2.52-.2 1.242 0 1.803.2 2.283.48.36.28.64.8.64 1.44 0 .722-.56 1.282-1.36 1.522v.08c.64.24 1 .72 1.2 1.602.2 1 .32 1.4.48 1.642h-1.64c-.2-.24-.32-.84-.522-1.602-.12-.72-.52-1.04-1.36-1.04h-.722v2.642zm.04-3.724h.72c.842 0 1.522-.28 1.522-.96 0-.602-.44-1.002-1.4-1.002-.4 0-.682.04-.842.08v1.882z'/%3E%3C/g%3E%3Cpath d='M65.756 45.036L53.042 101.73 20.195 90.21 49.95 45.036H0v112.902h116.544V45.036'/%3E%3Cg%3E%3Cpath d='M68.13 26.15L73.64 0 59.276 22.683c3.394.08 6.483 1.376 8.854 3.467'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+
+
+
+
+
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .col-md {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-md-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  .col-md-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-md-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  .col-md-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .order-md-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .order-md-last {
+    -ms-flex-order: 13;
+    order: 13;
+  }
+  .order-md-0 {
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  .order-md-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .order-md-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .order-md-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .order-md-4 {
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .order-md-5 {
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  .order-md-6 {
+    -ms-flex-order: 6;
+    order: 6;
+  }
+  .order-md-7 {
+    -ms-flex-order: 7;
+    order: 7;
+  }
+  .order-md-8 {
+    -ms-flex-order: 8;
+    order: 8;
+  }
+  .order-md-9 {
+    -ms-flex-order: 9;
+    order: 9;
+  }
+  .order-md-10 {
+    -ms-flex-order: 10;
+    order: 10;
+  }
+  .order-md-11 {
+    -ms-flex-order: 11;
+    order: 11;
+  }
+  .order-md-12 {
+    -ms-flex-order: 12;
+    order: 12;
+  }
+  .offset-md-0 {
+    margin-left: 0;
+  }
+  .offset-md-1 {
+    margin-left: 8.333333%;
+  }
+  .offset-md-2 {
+    margin-left: 16.666667%;
+  }
+  .offset-md-3 {
+    margin-left: 25%;
+  }
+  .offset-md-4 {
+    margin-left: 33.333333%;
+  }
+  .offset-md-5 {
+    margin-left: 41.666667%;
+  }
+  .offset-md-6 {
+    margin-left: 50%;
+  }
+  .offset-md-7 {
+    margin-left: 58.333333%;
+  }
+  .offset-md-8 {
+    margin-left: 66.666667%;
+  }
+  .offset-md-9 {
+    margin-left: 75%;
+  }
+  .offset-md-10 {
+    margin-left: 83.333333%;
+  }
+  .offset-md-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-lg-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  .col-lg-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  .col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-lg-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .col-lg-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-lg-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  .col-lg-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .order-lg-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .order-lg-last {
+    -ms-flex-order: 13;
+    order: 13;
+  }
+  .order-lg-0 {
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  .order-lg-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .order-lg-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .order-lg-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .order-lg-4 {
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .order-lg-5 {
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  .order-lg-6 {
+    -ms-flex-order: 6;
+    order: 6;
+  }
+  .order-lg-7 {
+    -ms-flex-order: 7;
+    order: 7;
+  }
+  .order-lg-8 {
+    -ms-flex-order: 8;
+    order: 8;
+  }
+  .order-lg-9 {
+    -ms-flex-order: 9;
+    order: 9;
+  }
+  .order-lg-10 {
+    -ms-flex-order: 10;
+    order: 10;
+  }
+  .order-lg-11 {
+    -ms-flex-order: 11;
+    order: 11;
+  }
+  .order-lg-12 {
+    -ms-flex-order: 12;
+    order: 12;
+  }
+  .offset-lg-0 {
+    margin-left: 0;
+  }
+  .offset-lg-1 {
+    margin-left: 8.333333%;
+  }
+  .offset-lg-2 {
+    margin-left: 16.666667%;
+  }
+  .offset-lg-3 {
+    margin-left: 25%;
+  }
+  .offset-lg-4 {
+    margin-left: 33.333333%;
+  }
+  .offset-lg-5 {
+    margin-left: 41.666667%;
+  }
+  .offset-lg-6 {
+    margin-left: 50%;
+  }
+  .offset-lg-7 {
+    margin-left: 58.333333%;
+  }
+  .offset-lg-8 {
+    margin-left: 66.666667%;
+  }
+  .offset-lg-9 {
+    margin-left: 75%;
+  }
+  .offset-lg-10 {
+    margin-left: 83.333333%;
+  }
+  .offset-lg-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-xl-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  .col-xl-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  .col-xl-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-xl-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-xl-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-xl-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .col-xl-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-xl-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .col-xl-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .col-xl-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-xl-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  .col-xl-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .col-xl-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .order-xl-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .order-xl-last {
+    -ms-flex-order: 13;
+    order: 13;
+  }
+  .order-xl-0 {
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  .order-xl-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .order-xl-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .order-xl-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .order-xl-4 {
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .order-xl-5 {
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  .order-xl-6 {
+    -ms-flex-order: 6;
+    order: 6;
+  }
+  .order-xl-7 {
+    -ms-flex-order: 7;
+    order: 7;
+  }
+  .order-xl-8 {
+    -ms-flex-order: 8;
+    order: 8;
+  }
+  .order-xl-9 {
+    -ms-flex-order: 9;
+    order: 9;
+  }
+  .order-xl-10 {
+    -ms-flex-order: 10;
+    order: 10;
+  }
+  .order-xl-11 {
+    -ms-flex-order: 11;
+    order: 11;
+  }
+  .order-xl-12 {
+    -ms-flex-order: 12;
+    order: 12;
+  }
+  .offset-xl-0 {
+    margin-left: 0;
+  }
+  .offset-xl-1 {
+    margin-left: 8.333333%;
+  }
+  .offset-xl-2 {
+    margin-left: 16.666667%;
+  }
+  .offset-xl-3 {
+    margin-left: 25%;
+  }
+  .offset-xl-4 {
+    margin-left: 33.333333%;
+  }
+  .offset-xl-5 {
+    margin-left: 41.666667%;
+  }
+  .offset-xl-6 {
+    margin-left: 50%;
+  }
+  .offset-xl-7 {
+    margin-left: 58.333333%;
+  }
+  .offset-xl-8 {
+    margin-left: 66.666667%;
+  }
+  .offset-xl-9 {
+    margin-left: 75%;
+  }
+  .offset-xl-10 {
+    margin-left: 83.333333%;
+  }
+  .offset-xl-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-table {
+  display: table !important;
+}
+
+.d-table-row {
+  display: table-row !important;
+}
+
+.d-table-cell {
+  display: table-cell !important;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+
+@media (min-width: 576px) {
+  .d-sm-none {
+    display: none !important;
+  }
+  .d-sm-inline {
+    display: inline !important;
+  }
+  .d-sm-inline-block {
+    display: inline-block !important;
+  }
+  .d-sm-block {
+    display: block !important;
+  }
+  .d-sm-table {
+    display: table !important;
+  }
+  .d-sm-table-row {
+    display: table-row !important;
+  }
+  .d-sm-table-cell {
+    display: table-cell !important;
+  }
+  .d-sm-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .d-sm-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .d-md-none {
+    display: none !important;
+  }
+  .d-md-inline {
+    display: inline !important;
+  }
+  .d-md-inline-block {
+    display: inline-block !important;
+  }
+  .d-md-block {
+    display: block !important;
+  }
+  .d-md-table {
+    display: table !important;
+  }
+  .d-md-table-row {
+    display: table-row !important;
+  }
+  .d-md-table-cell {
+    display: table-cell !important;
+  }
+  .d-md-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .d-md-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+  .d-lg-inline {
+    display: inline !important;
+  }
+  .d-lg-inline-block {
+    display: inline-block !important;
+  }
+  .d-lg-block {
+    display: block !important;
+  }
+  .d-lg-table {
+    display: table !important;
+  }
+  .d-lg-table-row {
+    display: table-row !important;
+  }
+  .d-lg-table-cell {
+    display: table-cell !important;
+  }
+  .d-lg-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .d-lg-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .d-xl-none {
+    display: none !important;
+  }
+  .d-xl-inline {
+    display: inline !important;
+  }
+  .d-xl-inline-block {
+    display: inline-block !important;
+  }
+  .d-xl-block {
+    display: block !important;
+  }
+  .d-xl-table {
+    display: table !important;
+  }
+  .d-xl-table-row {
+    display: table-row !important;
+  }
+  .d-xl-table-cell {
+    display: table-cell !important;
+  }
+  .d-xl-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .d-xl-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+
+
+
+.footer {
+  background-color: #222944;
+  color: #fff;
+}
+
+.footer__first-row {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 991.98px) {
+  .footer__first-row {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer__first-row {
+    padding-top: 35px;
+  }
+}
+
+.footer__column_pos_first {
+  padding-top: 0;
+}
+
+.footer__column_pos_second {
+  padding: 20px 0 0 40px;
+}
+
+.footer__column_pos_third {
+  padding: 15px 40px;
+}
+
+.footer__link {
+  display: inline-block;
+  color: #fff;
+  line-height: 1.4285em;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: #fff;
+}
+
+.footer__link_bottom {
+  font-weight: 300;
+}
+
+@media (max-width: 575.98px) {
+  .footer__link_bottom {
+    padding: 0 0 5px;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer__link_bottom {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .footer__link_bottom {
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .footer__link_bottom {
+    padding: 0 12px;
+  }
+}
+
+.footer__link_bottom:first-child {
+  padding-left: 0;
+}
+
+.footer__link_bottom:last-child {
+  padding-right: 0;
+}
+
+.footer__title {
+  font-size: 2.25em;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.footer__text {
+  font-size: 1.125em;
+  padding-bottom: 14px;
+  display: inline-block;
+}
+
+.footer__address {
+  line-height: 225%;
+  padding-bottom: 35px;
+}
+
+@media (max-width: 767.98px) {
+  .footer__address {
+    line-height: 180%;
+    padding-bottom: 10px;
+  }
+}
+
+.footer__channels {
+  max-width: 340px;
+  padding-left: 0;
+}
+
+.footer__icon {
+  margin-right: 20px;
+}
+
+.footer__support-header {
+  font-size: 1.5em;
+  padding: 0;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+
+.footer__support-button {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.footer__copyrights {
+  padding-bottom: 10px;
+  font-size: 0.75em;
+  font-weight: 300;
+}
+
+.footer__bottom-menu {
+  padding-bottom: 20px;
+  font-weight: 300;
+  line-height: 1em;
+}
+
+.footer__great-links-list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+@media (max-width: 991.98px) {
+  .footer__great-links-list {
+    width: 80%;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer__great-links-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}
+
+.footer__bottom-menu-list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+@media (max-width: 767.98px) {
+  .footer__bottom-menu-list {
+    width: 80%;
+  }
+}
+
+.footer__col-border {
+  border-left: 1px solid;
+}
+
+@media (max-width: 767.98px) {
+  .footer__col-border {
+    border-left: 0;
+  }
+}
+
+.footer__hline {
+  border-top: 1px solid #254547;
+  overflow: hidden;
+  min-height: 1px;
+  margin-bottom: 30px;
+}
+
+
+
+footer .link {
+    text-decoration: none;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.text-center {
+    text-align: center!important;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.rect-button, .rect-button_dark, .rect-button_light {
+    position: relative;
+    border: solid 1px;
+    padding: 1em 3em;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8125em;
+	background-color: transparent;
+    display: inline-block;
+}
+
+.rect-button:hover, .rect-button_dark:hover, .rect-button_light:hover {
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.footer__link:hover {
+    color: #fff;
+}
+
+
+.social-media-icon {
+  background: url("https://www.rocketsoftware.com/themes/rocketon/images/social-media-icons.png") no-repeat;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+}
+
+.social-media-icon.google-plus {
+  background-position: 0 0;
+}
+
+.social-media-icon.linkedi {
+  background-position: 0 0;
+}
+
+.social-media-icon.twitter {
+  background-position: 0 -47px;
+}
+
+.social-media-icon.youtube {
+  background-position: 0 -94px;
+}
+
+.social-media-icon.facebook {
+  background-position: 0 -141px;
+}
+
+.social-media-icon:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.link_no-text {
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+footer .h1, footer .h2, footer h1, footer h2, footer h3, .official h1, .official h2, .official h3 {
+	font-family: 'Barlow',Arial;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+	margin-top: 0;
+}
+
+
+/* content */
+.rocketon-py-3 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.rocketon-title-2 {
+    font-size: 1.8em;
+    font-weight: 100;
+}
+</style>
+</head><body><header id="header-main">
+    <a id="page-top" tabindex="-1" class="anchor-fix"></a>
+    <nav class="navbar navbar-expand-md main-navbar">
+		<div class="container main-navbar-container">
+			<div class="main-navbar-wrapper" role="navigation">
+				<div id="block-sitebranding" class="block block-system block-system-branding-block">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="https://www.rocketsoftware.com/" title="" rel="home">
+							<i class="main-nav-brand-image"></i>
+						</a>
+					</div>
+				</div>
+				<div role="navigation" aria-labelledby="block-mainnavigation-title" id="block-mainnavigation" class="navbar-collapse collapse align-items-end block block-menu navigation menu--main">
+					<h2 class="visually-hidden" id="block-mainnavigation-title">Main navigation menu</h2>
+					<ul class="nav navbar-nav">
+						<li class="nav-item main-menu--item-is-top active dropdown menu-top-products">
+								  <a href="https://www.rocketsoftware.com/product-categories" id="mainmenu-1" class="main-menu--nav-link active dropdown-toggle dropdown-products" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-target="#mainmenu-popup-1" data-drupal-link-system-path="product-categories">Products</a>
+						</li>
+						<li class="nav-item main-menu--item-is-top">
+								  <a href="https://www.rocketsoftware.com/resources" id="mainmenu-2" class="main-menu--nav-link" data-drupal-link-system-path="resources">Resources</a>
+						</li>
+						<li class="nav-item main-menu--item-is-top">
+								  <a href="https://www.rocketsoftware.com/support" id="mainmenu-3" class="main-menu--nav-link" data-drupal-link-system-path="node/51401">Support</a>
+						</li>
+						<li class="nav-item main-menu--item-is-top dropdown menu-top-partners">
+								  <a href="https://www.rocketsoftware.com/partners" id="mainmenu-4" class="main-menu--nav-link dropdown-toggle dropdown-partners" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-target="#mainmenu-popup-4" data-drupal-link-system-path="partners">Partners</a>
+						</li>
+						<li class="nav-item main-menu--item-is-top dropdown menu-top-about">
+								  <a href="https://www.rocketsoftware.com/about-us" id="mainmenu-5" class="main-menu--nav-link dropdown-toggle dropdown-about" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-target="#mainmenu-popup-5" data-drupal-link-system-path="node/46546">About</a>
+						</li>
+					</ul>
+				</div>
+				<div role="navigation" aria-labelledby="block-secondarynavigationmenu-title" id="block-secondarynavigationmenu" class="secondary-menu navigation menu--secondary-navigation-menu d-none d-md-flex">
+					<h2 class="visually-hidden" id="block-secondarynavigationmenu-title">Secondary navigation menu</h2>
+					<ul class="nav navbar-nav">
+						<li class="secondary-main-menu--item nav-item first">
+							<a href="https://www.rocketsoftware.com/contact?flag=contact&amp;node=rocket-aldon&amp;product=&amp;family=rocket-aldon&amp;solution=&amp;language=en&amp;resourcetype=&amp;resourceurl=" class="secondary-main-menu--link" data-drupal-link-system-path="node/38681">Contact Us</a>
+						</li>
+						<li class="secondary-main-menu--item nav-item last">
+							<a href="https://my.rocketsoftware.com/" class="secondary-main-menu--link">Support Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </nav>
+</header>
+
+<div class="container rocketon-py-3 official">
+<h1 class="rocketon-title-2">Rocket API</h1>
 <p>
-<a href="emulator-api/index.html">javadoc for Emulator API</a>
+This is the home of Javadoc for <a href="https://www.rocketsoftware.com/products/rocket-api">Rocket API</a>.
+</p>
 <p>
-<a href="api-gateway/index.html">javadoc for API Gateway</a>
-</html>
+This is release 8.5.4.
+</p>
+<p>
+<a href="https://rocketsoftware.github.io/rocket-api-javadoc/8.5.4/emulator-api/index.html">Javadoc for Emulator API</a>
+</p><p>
+<a href="https://rocketsoftware.github.io/rocket-api-javadoc/8.5.4/api-gateway/index.html">Javadoc for API Gateway</a>
+ 
+</p></div>
+
+<footer class="footer" id="footer-main" role="contentinfo">
+	<div class="container">
+		<div class="row footer__first-row">
+			<div class="col-md-6 col-lg-4">
+				<div class="footer__column_pos_first">
+					<h2 class="footer__title">Rocket Software</h2>
+					<div class="footer__text footer__address">77 4th Avenue<br>Waltham, MA 02451 USA</div>
+					<div class="footer__channels"><a class="link_no-text footer__icon social-media-icon facebook" href="https://www.facebook.com/RocketSoftwareInc" target="_blank">youtube</a><a class="link_no-text footer__icon social-media-icon twitter" href="http://twitter.com/rocket" target="_blank">twitter</a><a class="link_no-text footer__icon social-media-icon linkedin" href="https://www.linkedin.com/company/rocket-software" target="_blank">linked-in</a><a class="link_no-text footer__icon social-media-icon youtube" href="https://www.youtube.com/rocketsource" target="_blank">youtube</a></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 d-none d-lg-block footer__col-border">
+				<ul class="list-unstyled footer__great-links-list footer__column_pos_second">
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/products">Products</a></li>
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/about-us">About</a></li>
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/contact?flag=contact&amp;node=rocket-aldon&amp;product=&amp;family=rocket-aldon&amp;solution=&amp;language=en&amp;resourcetype=&amp;resourceurl=">Contact</a></li>
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/resources">Resources</a></li>
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/events">Events</a></li>
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/news">News</a></li>
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/partners">Partners</a></li>
+					<li><a class="link footer__link footer__text" href="http://blog.rocketsoftware.com/?utm_source=RScom&amp;utm_medium=social&amp;utm_campaign=subdomains" target="_blank">Blog</a></li>
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/rocket-jobs">Careers</a></li>
+					<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/training-and-services">Training / Services</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6 col-lg-4 d-none d-md-block footer__col-border">
+				<div class="footer__column_pos_third">
+					<h2 class="footer__support-header">Support Portal</h2>
+					<div class="footer__support-button"><a class="rect-button footer__link" href="https://my.rocketsoftware.com/RocketCommunity/RCLanding">Log in</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col d-md-block d-lg-none">
+				<div>
+					<ul class="list-unstyled footer__great-links-list">
+						<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/products">Products</a></li>
+						<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/about-us">About</a></li>
+						<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/contact?flag=contact&amp;node=rocket-aldon&amp;product=&amp;family=rocket-aldon&amp;solution=&amp;language=en&amp;resourcetype=&amp;resourceurl=">Contact</a></li>
+						<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/resources">Resources</a></li>
+						<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/events">Events</a></li>
+						<li class="d-none d-sm-block"><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/news">News</a></li>
+						<li class="d-none d-sm-block"><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/partners">Partners</a></li>
+						<li class="d-none d-sm-block"><a class="link footer__link footer__text" href="http://blog.rocketsoftware.com/?utm_source=RScom&amp;utm_medium=social&amp;utm_campaign=subdomains" target="_blank">Blog</a></li>
+						<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/rocket-jobs">Careers</a></li>
+						<li><a class="link footer__link footer__text" href="https://www.rocketsoftware.com/training-and-services">Training / Services</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="row footer__hline d-sm-none"></div>
+		<div class="row d-none d-sm-block">
+			<div class="col footer__copyrights text-center">© 2020 Rocket Software, Inc. Rocket<sup>®</sup> is a registered trademark of Rocket Software, Inc. All other trademarks cited herein are the property of their respective owners.</div>
+		</div>
+		<div class="row d-sm-none">
+			<div class="col footer__copyrights">© 2020 Rocket Software, Inc.</div>
+		</div>
+
+		<div class="row d-none d-sm-block">
+			<div class="col footer__bottom-menu text-center"><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/company/legal/privacy-policy">Privacy Notice</a> <a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/cookie-notice">Cookie Notice</a> <a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/company/legal/terms-of-use">Terms of Use</a><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/security-practices">Security Practices</a><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/company/legal/trademarks">Trademarks</a><a class="d-inline-block d-lg-none d-xl-inline-block link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/manage-your-email-preferences">Manage Your Email Preferences</a><a class="d-none d-lg-inline-block d-xl-none link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/manage-your-email-preferences">Email Preferences</a><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/unsubscribe">Unsubscribe</a></div>
+		</div>
+
+		<div class="row">
+			<div class="col d-sm-none">
+				<ul class="list-unstyled footer__bottom-menu-list"><li><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/company/legal/privacy-policy">Privacy Notice</a></li>
+					<li><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/cookie-notice">Cookie Notice</a></li>
+					<li><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/manage-your-email-preferences">Email Preferences</a></li>
+					<li><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/unsubscribe">Unsubscribe</a></li>
+					<li><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/company/legal/terms-of-use">Terms of Use</a></li>
+					<li><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/company/legal/trademarks">Trademarks</a></li>
+					<li><a class="link footer__link footer__link_bottom" href="https://www.rocketsoftware.com/security-practices">Security Practices</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+</body></html>
