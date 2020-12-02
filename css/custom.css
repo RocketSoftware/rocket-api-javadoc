@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar { padding: 0; background-color: #007C72; }
+.navbar-brand { padding: 0; }
+.main-container { margin-top: 80px; }
+.footer { background-color: #007C72; height: 53px; background-image: url("../images/footer-angle.png"); background-repeat: no-repeat; background-size: 184px 53px }
+
+a { color: #389CBE }
+
+.copyright { color: #ffffff; font-size: 0.7em; margin: 15px 0; }
