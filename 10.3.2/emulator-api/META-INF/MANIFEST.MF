@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: tstamod
+Build-Jdk: 11.0.13
+Implementation-Version: 7.2.6
+RocketSoftware-BuildNumber: 670
+RocketSoftware-Component: JavaDoc
+RocketSoftware-Product: Common Java Libraries 2
+RocketSoftware-Revision: 5089acbb009eefba647d663c578056f8bd519eee
+RocketSoftware-Timestamp: 2023-07-26 11:57
+RocketSoftware-Version: 7.2.6
+
