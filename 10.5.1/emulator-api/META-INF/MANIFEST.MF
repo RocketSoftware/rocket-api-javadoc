@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.3.0
+Build-Jdk-Spec: 17
+Implementation-Version: 8.8.5
+RocketSoftware-BuildNumber: 688
+RocketSoftware-Component: EmulatorApi
+RocketSoftware-Product: Common Java
+                                    
+ Libraries 2
+RocketSoftware-Revision: 511463c81156f665f978eeb0d751350597e6303f
+RocketSoftware-Timestamp: 2024-11-27 10:08
+RocketSoftware-Version: 8.8.5
+
