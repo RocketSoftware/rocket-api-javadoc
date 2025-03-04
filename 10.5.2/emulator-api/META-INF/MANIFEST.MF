@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Maven Javadoc Plugin 3.6.0
+Build-Jdk-Spec: 17
+Implementation-Version: 8.9.7
+RocketSoftware-BuildNumber: 691
+RocketSoftware-Component: JavaDoc
+RocketSoftware-Product: Common Java Libraries 2
+RocketSoftware-Revision: eaac96eaa185d4e897d6bc3e52357af9b4ebd41d
+RocketSoftware-Timestamp: 2025-02-11 10:58
+RocketSoftware-Version: 8.9.7
+
