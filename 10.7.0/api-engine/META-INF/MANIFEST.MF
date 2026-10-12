@@ -1,0 +1,102 @@
+Manifest-Version: 1.0
+Created-By: Maven Javadoc Plugin 3.12.0
+Build-Jdk-Spec: 17
+
+Name: allclasses-index.html
+SHA-256-Digest: Jcd8CRjRHcaiA9V7n+haAE13FVlTL5ZN/4BRTat6t+4=
+
+Name: help-doc.html
+SHA-256-Digest: KzZQMS9PGgHxQYKG0slRMdBETS8X+IbuxfPGtxoWzow=
+
+Name: legal/jquery.md
+SHA-256-Digest: BxaUNoLGJP0vSbOnGKLtTWOG6HL+dB8cdZVzriRQnT4=
+
+Name: com/seagullsw/appinterface/server/backend/hostconnector3/package-s
+ ummary.html
+SHA-256-Digest: woyCc0wemyYtqnmV77SghxI8UbZ+1OD/JGsNbLW4Bp4=
+
+Name: legal/jqueryUI.md
+SHA-256-Digest: b7JFcxeftaOb4J5lJrvV9nQbuCxigEIa7v1dP4A7MPE=
+
+Name: package-search-index.js
+SHA-256-Digest: Uw4NOuTSvjKbebo/L28zotKaKErgr43hcdD251p5ifg=
+
+Name: legal/ASSEMBLY_EXCEPTION
+SHA-256-Digest: uZjNoQHloevPtf+c3ddu1DovIWlnZZLUKLfA14BmXyo=
+
+Name: index.html
+SHA-256-Digest: QCZAYChBOXzHvVGLbfGiWYZ4FPzcnGVk3dZHr9FJwbw=
+
+Name: com/seagullsw/appinterface/server/backend/hostconnector3/class-use
+ /MicroflowExecutionContext.html
+SHA-256-Digest: kbgb/jNsfI8KoaHQXjqYKIPw849T1if9G6bbK5FzeWQ=
+
+Name: element-list
+SHA-256-Digest: hjVImPITOyVRnIB6Nr4Q/WMjiSMkMqqjePX34al1uH0=
+
+Name: jquery-ui.overrides.css
+SHA-256-Digest: OsAnJtBw4+g6qVE10hfNtouki9TfBMQLQzE8mY8nPJY=
+
+Name: member-search-index.js
+SHA-256-Digest: JTTq3M8ViI3XpsU80lQ0xX5aIEJR1r6VgTCrCvLqrzA=
+
+Name: resources/glass.png
+SHA-256-Digest: YNXwWfEcX2H3f2EqLILSqJ628lsZ1oxRrj4dROrXwco=
+
+Name: script-dir/jquery-3.6.1.min.js
+SHA-256-Digest: o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=
+
+Name: overview-tree.html
+SHA-256-Digest: JXQLcJLj+I8O3DBGkTTlSIKBI4r29ZKPtgZJFYJS7lE=
+
+Name: script-dir/jquery-ui.min.js
+SHA-256-Digest: Zy8ngYLN8E88YqW42T9AZ5GFSih5HyeuzbmYFXPGFCQ=
+
+Name: script-dir/jquery-ui.min.css
+SHA-256-Digest: zbhnV9iECWGQg0VP2QLpuDxHd6+bdTjdn4QalGytqhE=
+
+Name: script.js
+SHA-256-Digest: +oBY1WcjkW3Lx67tppfgsjRtrr4ORPWlD6XNuWU8tUw=
+
+Name: module-search-index.js
+SHA-256-Digest: gUoFmD4yZ9WRx+YrMU646wUE7uhEyKcNSU9u26oPTxg=
+
+Name: legal/LICENSE
+SHA-256-Digest: huBRa4iCdqSSsZ+ahPWoZu02kl+uFRCzqUoLYhPmkZI=
+
+Name: stylesheet.css
+SHA-256-Digest: qVX+MpG8m6Hg5ST7gP60xvW1HrPK5xMclvQkG9ax9Bw=
+
+Name: allpackages-index.html
+SHA-256-Digest: Oi6gAIAU45oxM36MvVfvWNHiIGombCsvv01FJSIMJBY=
+
+Name: com/seagullsw/appinterface/server/backend/hostconnector3/package-t
+ ree.html
+SHA-256-Digest: wGrBgGE5XrVY3lO70vkK3MkSBgdbjOg/zr/iR59uzg0=
+
+Name: search.js
+SHA-256-Digest: YUy5qSPOMkxZ1Q0foU9+bzOoY1RKnfpxSQ6y2ytxbTM=
+
+Name: com/seagullsw/appinterface/server/backend/hostconnector3/Microflow
+ ExecutionContext.html
+SHA-256-Digest: ck3D3ZdAehHBj9qwzT/yJudUfdESxJ8Fa9hlBrS1L1w=
+
+Name: legal/ADDITIONAL_LICENSE_INFO
+SHA-256-Digest: 6/l3e9MH7Xic6r8oKprKFow5HH9I4Vpgk5NS77PqM/k=
+
+Name: type-search-index.js
+SHA-256-Digest: iEH33OHkItZSrNWtoy2vUzGw7370A9FhVr01ZPtaV+4=
+
+Name: resources/x.png
+SHA-256-Digest: An8O0oMpY0vmRZMuGrfDIb8nuM+vmu0w8sv17kR4lSs=
+
+Name: tag-search-index.js
+SHA-256-Digest: Q5S8J8l9DJAYwvt2O/wEXbFEM7Fg48H+wWeV0dGWeq8=
+
+Name: index-all.html
+SHA-256-Digest: s1+fBOfsf/BXfAAe1W/ofTYQhmv73ivOK1QuoVamMrU=
+
+Name: com/seagullsw/appinterface/server/backend/hostconnector3/package-u
+ se.html
+SHA-256-Digest: nFn1nWwpR1v+bEgT8mUODm/NfpWUofADhZWrwmL9jX8=
+
